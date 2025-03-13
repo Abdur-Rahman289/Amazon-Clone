@@ -1,0 +1,133 @@
+/* .nav-signin{
+    background-color: yellow;
+    height: 30px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+
+}
+.new-cus{
+    margin-left: 570px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .dropdown {
+    position: relative;
+    width: 200px;
+    margin: 50px;
+  }
+  
+  .dropdown-button {
+    background-color: #232f3e;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .dropdown-button strong {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 10px;
+    display: none; /* Initially hidden */
+    z-index: 1000;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block; /* Show on hover */
+  }
+  
+  .sign-in-section {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .sign-in-btn {
+    background-color: yellow;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .sign-in-btn:hover {
+    background-color: #f9d835;
+  }
+  
+  .sign-in-section p {
+    margin: 5px 0 0;
+    font-size: 12px;
+  }
+  
+  .sign-in-section a {
+    color: #007185;
+    text-decoration: none;
+  }
+  
+  .sign-in-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu-column {
+    width: 48%;
+  }
+  
+  .menu-column h4 {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .menu-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .menu-column ul li a {
+    color: #007185;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  .menu-column ul li a:hover {
+    text-decoration: underline;
+  }
+.account-list{
+    font-weight: 700;
+    background-color:#232f3e;
+    border: none;
+    color: white;
+}  
